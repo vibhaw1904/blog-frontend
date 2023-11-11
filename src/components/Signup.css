@@ -1,0 +1,36 @@
+.input-field{
+    width: 260px;
+    line-height: 26px;
+   
+}
+input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }  
+  .login-form{
+    margin: 0px auto;
+    margin-left:0px;
+    padding-top: 35px;
+  }  
+  label {
+    display: block;
+        font-weight: bold;
+      }
+    .signup-btn button{
+      
+        padding: 10px 20px;
+        background-color: #0e0e0e;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #1c1d1e;
+    }
+    

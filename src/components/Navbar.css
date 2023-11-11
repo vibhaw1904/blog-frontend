@@ -1,0 +1,73 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 8px;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0 11px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 8px 0;
+    }
+
+    .nav-links {
+        margin: 10px 0;
+    }
+
+    .nav-links li {
+        margin: 0;
+        padding: 5px 0;
+    }
+}
+.logout{
+    cursor: pointer;
+    width: 30px;
+    height: 40px;
+}

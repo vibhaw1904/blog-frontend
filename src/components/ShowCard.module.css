@@ -1,0 +1,68 @@
+.showCard {
+  border: 1px solid #ccc;
+  max-width: 300px;
+  margin: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardImage img {
+  max-width: 100%;
+  height: auto; 
+}
+
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.cardDescription {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.commentForm {
+  display: flex;
+}
+.comment_inputs{
+  display: flex;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+}
+
+.add{
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+.add .adds{
+  width: 50px;
+  height: 30px;
+}
+.add:hover{
+  background-color: white;
+}
+.fetch_cmment{
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .fetch_cmment li{
+      list-style: none;
+  }
+  .delete_icon{
+      cursor: pointer;
+      transition: all ease 3s;
+  }
+  .delete_icon :hover{
+    color: red;
+  }
+    

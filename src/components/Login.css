@@ -1,0 +1,38 @@
+.main-card {
+    background-color: white;
+    border-radius: 4px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-field {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-btn button {
+    padding: 10px 20px;
+    background-color: #0e0e0e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1c1d1e;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+p span {
+    color: blue;
+    cursor: pointer;
+}

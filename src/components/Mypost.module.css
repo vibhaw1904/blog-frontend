@@ -1,0 +1,6 @@
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust as per your preference */
+    gap: 16px; /* Adjust the gap between grid items */
+  }

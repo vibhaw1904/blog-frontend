@@ -1,0 +1,15 @@
+.card{
+    background-color: white;
+    border-radius: 4px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;   
+}
+.user{
+    border: 2px solid black;
+    border-radius: 45px;
+    width: 30px;
+    margin: 0px auto;
+}
